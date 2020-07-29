@@ -4,7 +4,6 @@ import sys
 import time
 
 import telegram.ext as tg
-from telethon import TelegramClient
 
 StartTime = time.time()
 
@@ -164,8 +163,7 @@ else:
 SUDO_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 
-updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("naufalyn", API_ID, API_HASH)
+updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
 
 SUDO_USERS = list(SUDO_USERS) + list(DEV_USERS)
