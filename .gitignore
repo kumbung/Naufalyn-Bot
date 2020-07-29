@@ -1,0 +1,17 @@
+Naufalyn_Bot/config.py
+Naufalyn_Bot/*.session
+Naufalyn_Bot/*.session-journal
+Naufalyn_Bot/config.ini
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+Naufalyn_Bot/modules/helper_funcs/temp.txt
+Naufalyn_Bot/elevated_users.json
+start-3.6.bat
+*.session
+kangsticker.png
+venv
+env
